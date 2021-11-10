@@ -46,7 +46,8 @@ html {
       url("https://i.ibb.co/bNwDWNH/Whats-App-Image-2021-11-10-at-2-42-06-PM-1.jpg")
       no-repeat;
   background-attachment: fixed;
-  background-size: cover;
+  background-position: center;
+  background-size: contain;
   color: white;
   box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   font-family: "Roboto", sans-serif;
