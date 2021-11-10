@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+.music {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
 }

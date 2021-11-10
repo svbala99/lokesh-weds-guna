@@ -1,6 +1,9 @@
+$(document).on("click", function () {
+  document.getElementById("my_audio").play();
+});
 // Get that hamburger menu cookin' //
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(
     document.querySelectorAll(".navbar-burger"),
@@ -9,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function() {
   // Check if there are any navbar burgers
   if ($navbarBurgers.length > 0) {
     // Add a click event on each of them
-    $navbarBurgers.forEach(function($el) {
-      $el.addEventListener("click", function() {
+    $navbarBurgers.forEach(function ($el) {
+      $el.addEventListener("click", function () {
         // Get the target from the "data-target" attribute
         var target = $el.dataset.target;
         var $target = document.getElementById(target);
@@ -23,18 +26,18 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 // Smooth Anchor Scrolling
-$(document).on("click", 'a[href^="#"]', function(event) {
+$(document).on("click", 'a[href^="#"]', function (event) {
   event.preventDefault();
   $("html, body").animate(
     {
-      scrollTop: $($.attr(this, "href")).offset().top
+      scrollTop: $($.attr(this, "href")).offset().top,
     },
     500
   );
 });
 
 // When the user scrolls down 20px from the top of the document, show the scroll up button
-window.onscroll = function() {
+window.onscroll = function () {
   scrollFunction();
 };
 
@@ -47,11 +50,11 @@ function scrollFunction() {
 }
 
 // Preloader
-$(document).ready(function($) {
+$(document).ready(function ($) {
   $(".preloader-wrapper").fadeOut();
   $("body").removeClass("preloader-site");
 });
-$(window).load(function() {
+$(window).load(function () {
   var Body = $("body");
   Body.addClass("preloader-site");
 });
