@@ -350,7 +350,7 @@ html {
 .nama-lengkap {
   font-family: "Roboto", sans-serif;
   color: #996e6d;
-  font-size: 3.5rem;
+  font-size: 1.5rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
   line-height: 3.7rem;
@@ -590,7 +590,7 @@ body.preloader-site {
 }
 
 .title-foto {
-  font-size: 18pt;
+  font-size: 14pt;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   text-align: left;
@@ -600,7 +600,7 @@ body.preloader-site {
 .subtitle-foto {
   font-family: "Lato", sans-serif;
   font-weight: 700;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: 600;
   margin-top: 15px;
   text-align: left;
