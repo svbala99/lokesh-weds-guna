@@ -9,6 +9,14 @@
   display: none;
 }
 
+.navbar-burger {
+  color: #ffffff;
+}
+
+.navbar-burger span {
+  height: 2.5px;
+}
+
 .heart {
   animation: heartbeat 1s infinite;
   background-color: #e31b23;
